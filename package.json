@@ -1,0 +1,23 @@
+{
+  "name": "shorthand",
+  "version": "0.1.0",
+  "description": "Low-Level CSS toolkit that uses CSS Grid layout",
+  "main": "./layout.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulfarino/shorthand.git"
+  },
+  "keywords": [
+    "css",
+    "grid",
+    "cssgrid"
+  ],
+  "author": "Paul Farino",
+  "email" : "paul.farino1@gmail.com",
+  "url" : "http://www.paulfarino.com/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paulfarino/shorthand/issues"
+  },
+  "homepage": "https://github.com/paulfarino/shorthand#readme"
+}
