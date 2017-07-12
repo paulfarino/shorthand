@@ -1,0 +1,29 @@
+
+@charset "UTF-8";
+
+// Layout Variables
+$gtc: grid-template-columns;
+$gtr: grid-template-rows;
+$gcs: grid-column-start;
+$gce: grid-column-end;
+$grs: grid-row-start;
+$gre: grid-row-end;
+
+// GridOption Mapping
+$gridOptions: (
+    ("gtc", $gtc),
+    ("gtr", $gtr),
+    ("gcs", $gcs),
+    ("gce", $gce),
+    ("grs", $grs),
+    ("gre", $gre)
+);
+
+// Directive - Loop through map
+  @each $gridOptions, $gridValue in $gridOptions {
+    @for $number from 1 through 12 {
+    .#{$gridOptions}-#{$number}{
+      #{$gridValue}: $number;
+    }
+  }
+}
