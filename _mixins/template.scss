@@ -1,0 +1,14 @@
+@import "_functions/*"
+
+@mixin gtc($top...) {
+  grid-template-columns: remove($top, ',');
+}
+
+
+//////////////////////////////////
+// Example Render
+//////////////////////////////////
+
+// .myClass {
+//   @include gtc(20, 1fr, 2fr);
+// }
