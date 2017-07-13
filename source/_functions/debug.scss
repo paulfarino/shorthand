@@ -1,0 +1,9 @@
+// Debug Layout
+$debugLayout: false !default;
+
+@if $debugLayout == true {
+    @debug "Debug feature is currently turned on";
+     * {
+      border: 1px solid rgba(#FF0000, .5);
+    }
+}
